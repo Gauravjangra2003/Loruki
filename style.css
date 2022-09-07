@@ -38,7 +38,7 @@ img{
 code , pre {
     background: #333;
     color: white;
-    padding: 10px;
+    padding: 30px;
 }
 
 
@@ -173,7 +173,7 @@ code , pre {
 
  /* FEATURES */
  .features-head img , .docs-head img {
-    width: 200px;
+    width: 100px;
     justify-self: flex-end;
  }
  .features-sub-head img {
@@ -196,7 +196,7 @@ code , pre {
 
  /*DOCS*/
  .docs-main h3{
-    margin: 20px 0;
+    margin: 30px 0;
  }
  .docs-main .grid{
     grid-template-columns: 1fr 2fr;
@@ -297,7 +297,7 @@ code , pre {
 
 
 /* MOBILE */
-@media(max-width: 500px) {
+@media(max-width: 600px) {
     .navbar{
         height: 110px;
     }
@@ -305,7 +305,19 @@ code , pre {
         flex-direction: column;
     }
     .navbar ul{
-        padding: 10px;
+        padding:10px;
         background-color: rgba(0,0,0,0.2);
     }
+    p{
+        margin: 10px 0px;
+        padding: 0 20px;
+    }
+    .features-head img , .docs-head img {
+        width: 110px;
+        justify-self: flex-end;
+     }
+     .features-sub-head img {
+        width: 200px;
+        justify-self: flex-end;
+     }
 }
